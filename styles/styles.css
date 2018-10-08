@@ -1,21 +1,36 @@
 body {
   text-align: center;
-  background-color: #f0e8c5;
+  background: linear-gradient(white, black);
 }
 
 div {
   margin-top: 15px;
 }
 
+.nezha {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.nidus {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.menutext {
+  font-family: Bookman, Charcoal, sans-serif;
+  font-weight: bold
+}
+	
 .image-section {
   display: flex;
   justify-content: center;
 }
 
 .section-style {
-  margin-right: 25px;
-  margin-left: 25px;
-  background-color: white;
+  margin-right: 200px;
+  margin-left: 200px;
+  background-color: transparent;
 }
 
 
@@ -33,6 +48,7 @@ div {
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
     font-size: 36px; /* Increased font size */
+    
 }
 
 .icon-bar a:hover {
@@ -40,7 +56,7 @@ div {
 }
 
 .active {
-    background-color: #4CAF50; /* Add an active/current color */
+    background-color: black; /* Add an active/current color */
 }
 
 /* Add a black background color to the top navigation bar */
@@ -79,7 +95,9 @@ div {
     border: none;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
+    margin-bottom: 8px;
+	font-size: 17px;
+	
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
